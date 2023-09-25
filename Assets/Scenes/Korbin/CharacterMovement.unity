@@ -12396,15 +12396,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728417407}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1672268, y: -10.937149, z: 14.127761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.4072268, y: -11.137149, z: 14.127761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1406394651}
   - {fileID: 1423243489}
   - {fileID: 1356653344}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 543450652487250337}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &731133241
 GameObject:
@@ -32492,7 +32492,7 @@ MonoBehaviour:
     TAG: TFI
   editorSettings:
     selectedPlayer: 1
-    selectedPlayerSettingsPanel: 2
+    selectedPlayerSettingsPanel: 0
 --- !u!4 &543450652487250337
 Transform:
   m_ObjectHideFlags: 0
@@ -32516,6 +32516,7 @@ Transform:
   - {fileID: 1528211360998101665}
   - {fileID: 6918000420322027396}
   - {fileID: 1481877006}
+  - {fileID: 728417408}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &876150829949611633
@@ -33637,5 +33638,4 @@ SceneRoots:
   - {fileID: 1557907185}
   - {fileID: 698955297}
   - {fileID: 543450652487250337}
-  - {fileID: 728417408}
   - {fileID: 597705216}
