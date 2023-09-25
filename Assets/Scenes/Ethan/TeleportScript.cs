@@ -17,10 +17,10 @@ public class TeleportScript : MonoBehaviour
         {
             targetLocation = GameObject.FindGameObjectWithTag("ExitPortal").GetComponent<Transform>();
         }
-        else
-        {
-            targetLocation = GameObject.FindGameObjectWithTag("EntrancePortal").GetComponent<Transform>();
-        }
+        // else
+        // {
+        //     targetLocation = GameObject.FindGameObjectWithTag("EntrancePortal").GetComponent<Transform>();
+        // }
     }
 
     void OnTriggerEnter(Collider other)
