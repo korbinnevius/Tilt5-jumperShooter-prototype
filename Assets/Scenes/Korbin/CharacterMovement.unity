@@ -10539,7 +10539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e56b9da76e4c03b5ff1d45f1920486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 916862443643679833, guid: 1c6235bfae5f7d84fa556d489ceabfa5,
+  PlayerPrefab: {fileID: 916862443643679833, guid: 54b3d3dd88de88f41b898ebc58aa9f60,
     type: 3}
   spawnLocation: {fileID: 955801227}
   searchForMoreControllers: 1
