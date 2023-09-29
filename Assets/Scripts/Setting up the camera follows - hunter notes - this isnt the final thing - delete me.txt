@@ -1,0 +1,6 @@
+Setting up the camera follows
+
+Multiple GameBoards set up in the tiltfivemanager2
+Each gameboard needs a GameBoardFollow script set to a player.
+There must be a 'LevelMarker' script in the scene, set up with empty transforms for the different level heights. 
+Players must have a 'PlayerLevel' on them (on same gameobject with Player script)

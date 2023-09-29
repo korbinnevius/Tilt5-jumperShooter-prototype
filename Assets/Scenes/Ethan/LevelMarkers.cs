@@ -19,4 +19,22 @@ public class LevelMarkers : MonoBehaviour
         LevelTwoHeight = _level2Height;
         LevelThreeHeight = _level3Height;
     }
+
+    public static Transform GetTransformFromLevelInt(int level)
+    {
+        if (level == 3)
+        {
+            return LevelThreeHeight;
+        }else if (level == 2)
+        {
+            return LevelTwoHeight;
+        }else if (level == 1)
+        {
+            return LevelOneHeight;
+        }
+        else
+        {
+            return null;
+        }
+    }
 }
