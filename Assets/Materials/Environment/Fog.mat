@@ -38,8 +38,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CloudAlpha: 1
-    - _CloudPower: 1
+    - _CloudAlpha: 0.1
+    - _CloudPower: 1.2
     - _CloudScale: 120
     - _QueueControl: 0
     - _QueueOffset: 0

@@ -3961,7 +3961,7 @@ Transform:
   m_GameObject: {fileID: 200507952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.31, z: 0}
+  m_LocalPosition: {x: 0, y: -5.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12314,8 +12314,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.58592916, g: 0.70807517, b: 0.7264151, a: 1}
+  m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -20951,7 +20951,7 @@ Transform:
   m_GameObject: {fileID: 1207415498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.6, z: 0}
+  m_LocalPosition: {x: 0, y: -2.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34194,7 +34194,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b3518e60b980ef41a368c4ff5243e1e, type: 2}
+  - {fileID: 2100000, guid: ed64114af1d5cdb44aee0e3c7a05e0dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34262,7 +34262,7 @@ MonoBehaviour:
       copyPlayerOneScaleRatio: 1
       copyPlayerOneScaleUnit: 1
     gameboardSettings:
-      currentGameBoard: {fileID: 2169403264882638574}
+      currentGameBoard: {fileID: 2379230844985891234}
       gameboardTypeOverride: 1
       copyPlayerOneGameboard: 1
     leftWandSettings:
@@ -34415,7 +34415,7 @@ MonoBehaviour:
       copyPlayerOneScaleRatio: 1
       copyPlayerOneScaleUnit: 1
     gameboardSettings:
-      currentGameBoard: {fileID: 2169403264882638574}
+      currentGameBoard: {fileID: 2379230844985891234}
       gameboardTypeOverride: 1
       copyPlayerOneGameboard: 1
     leftWandSettings:
@@ -34455,7 +34455,7 @@ MonoBehaviour:
     level: 0
     TAG: TFI
   editorSettings:
-    selectedPlayer: 3
+    selectedPlayer: 1
     selectedPlayerSettingsPanel: 3
 --- !u!4 &543450652487250337
 Transform:
@@ -34506,7 +34506,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b3518e60b980ef41a368c4ff5243e1e, type: 2}
+  - {fileID: 2100000, guid: ed64114af1d5cdb44aee0e3c7a05e0dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34558,12 +34558,27 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2169403265111337591}
-  - {fileID: 2169403264882638573}
+  - {fileID: 4618204806818371270}
   - {fileID: 9160711680101570954}
   - {fileID: 6513852108488768818}
   - {fileID: 2169403266476223022}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1047175040566443673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582329114601359408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4618204806818371270}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!33 &1241056288473403733
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -34648,7 +34663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: 177eedfecce819a44bf6a2d06fad8b92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34678,57 +34693,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4214726984406447147}
   m_Mesh: {fileID: -8367231247473855917, guid: 53996037eac610c449b9b74b3ba62893, type: 3}
---- !u!4 &2169403264882638573
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2169403264882638575}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2566875735671922895}
-  m_Father: {fileID: 988889212206926917}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2169403264882638574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2169403264882638575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39c75928ed3714ecb8d3d182fe37934a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowGizmo: 1
-  ShowGrid: 0
-  GridHeightOffset: 0
-  StickyHeightOffset: 1
-  GizmoOpacity: 0.75
-  GameboardType: 0
---- !u!1 &2169403264882638575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2169403264882638573}
-  - component: {fileID: 2169403264882638574}
-  m_Layer: 0
-  m_Name: Tilt Five Game Board
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &2169403265111337585
 GameObject:
   m_ObjectHideFlags: 0
@@ -34906,23 +34870,26 @@ MonoBehaviour:
   ShowGrid: 0
   GridHeightOffset: 0
   StickyHeightOffset: 1
-  GizmoOpacity: 0.75
+  GizmoOpacity: 0.036
   GameboardType: 0
---- !u!4 &2566875735671922895
-Transform:
+--- !u!114 &2379230844985891234
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2863136032894192176}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
-  m_LocalPosition: {x: 0, y: 10, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2169403264882638573}
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_GameObject: {fileID: 3036097084599489861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c75928ed3714ecb8d3d182fe37934a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowGizmo: 1
+  ShowGrid: 0
+  GridHeightOffset: 0
+  StickyHeightOffset: 1
+  GizmoOpacity: 0.065
+  GameboardType: 0
 --- !u!1 &2646134610575686175
 GameObject:
   m_ObjectHideFlags: 0
@@ -34971,22 +34938,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652487250337}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2863136032894192176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2566875735671922895}
-  m_Layer: 0
-  m_Name: Tilt Five Preview Pose
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &2892267968021889114
 Transform:
   m_ObjectHideFlags: 0
@@ -35021,6 +34972,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!1 &3036097084599489861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4618204806818371270}
+  - component: {fileID: 2379230844985891234}
+  - component: {fileID: 6468877537818932963}
+  m_Layer: 0
+  m_Name: PlayerGameboard 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &3280927519514473300
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35041,7 +35010,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: 177eedfecce819a44bf6a2d06fad8b92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35211,7 +35180,7 @@ MonoBehaviour:
   ShowGrid: 0
   GridHeightOffset: 0
   StickyHeightOffset: 1
-  GizmoOpacity: 0.75
+  GizmoOpacity: 0.094
   GameboardType: 0
 --- !u!23 &4290389257453446671
 MeshRenderer:
@@ -35233,7 +35202,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: baf1681aef84ec941a8e73e750c85917, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35290,6 +35259,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!4 &4618204806818371270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3036097084599489861}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1047175040566443673}
+  m_Father: {fileID: 988889212206926917}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4878771611282218263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35302,7 +35287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7d3dee7aaf1a14ca66848ff7594d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerToFollow: 1
+  playerToFollow: 3
   offset: {x: 0, y: 0, z: 0}
   gameBoardLerpSpeed: 5
 --- !u!1 &5200747907101116284
@@ -35394,7 +35379,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: baf1681aef84ec941a8e73e750c85917, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35442,6 +35427,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6308958460829171543}
   m_Mesh: {fileID: -5308210633308118684, guid: 53996037eac610c449b9b74b3ba62893, type: 3}
+--- !u!114 &6468877537818932963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3036097084599489861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7d3dee7aaf1a14ca66848ff7594d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerToFollow: 1
+  offset: {x: 0, y: 0, z: 0}
+  gameBoardLerpSpeed: 5
 --- !u!4 &6513852108488768818
 Transform:
   m_ObjectHideFlags: 0
@@ -35563,7 +35563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7d3dee7aaf1a14ca66848ff7594d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerToFollow: 1
+  playerToFollow: 2
   offset: {x: 0, y: 0, z: 0}
   gameBoardLerpSpeed: 5
 --- !u!33 &7606134584908824189
@@ -35616,7 +35616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: 177eedfecce819a44bf6a2d06fad8b92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35674,7 +35674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b3518e60b980ef41a368c4ff5243e1e, type: 2}
+  - {fileID: 2100000, guid: ed64114af1d5cdb44aee0e3c7a05e0dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35801,6 +35801,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8582329114601359408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047175040566443673}
+  m_Layer: 0
+  m_Name: Tilt Five Preview Pose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &9129727726603051204
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35821,7 +35837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18a76e68ef1ca0745a880b5976ffbd57, type: 2}
+  - {fileID: 2100000, guid: baf1681aef84ec941a8e73e750c85917, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
