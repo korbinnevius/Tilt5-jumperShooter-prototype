@@ -62,6 +62,7 @@ namespace Ship
 			//configure input
 			var player = pla.GetComponent<Player>();
 			player.Input.ControllerForward = pla;
+			player.Input.TiltPlayerIndex = playerIndex;
 
 			//todo: yield here for WaitUntilWandConnected
 			

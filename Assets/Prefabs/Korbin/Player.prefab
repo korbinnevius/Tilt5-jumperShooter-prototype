@@ -255,8 +255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TiltPlayerIndex: 0
-  interactButton: 0
-  jumpButton: 0
+  interactButton: 8
+  jumpButton: 128
   _triggerThreshold: 0
 --- !u!1 &3862161505742401547
 GameObject:
