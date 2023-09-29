@@ -34456,7 +34456,7 @@ MonoBehaviour:
     TAG: TFI
   editorSettings:
     selectedPlayer: 1
-    selectedPlayerSettingsPanel: 3
+    selectedPlayerSettingsPanel: 0
 --- !u!4 &543450652487250337
 Transform:
   m_ObjectHideFlags: 0
