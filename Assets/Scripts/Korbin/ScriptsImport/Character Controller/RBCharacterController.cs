@@ -79,7 +79,7 @@ public class RBCharacterController : MonoBehaviour
         UprightForce();
         LocomotionForce();
     }
-
+    
     private void UpdatePlatform()
     {
         if (_platform != null)
@@ -220,6 +220,7 @@ public class RBCharacterController : MonoBehaviour
         else
         {
             //check if we have a velocity. If we do, we should turn to face the direction we are, say, being flung
+            // _rigidbody.rotation = Quaternion.LookRotation(_unitGoal, Vector3.up);
         }
     }
 

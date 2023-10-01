@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 2409291356069288739}
   - component: {fileID: 5483927286443767829}
   - component: {fileID: 6674752285633171101}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: PlayerVariations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,9 +280,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TiltPlayerIndex: 0
+  shooting: {fileID: 6674752285633171101}
   interactButton: 8
   jumpButton: 128
-  _triggerThreshold: 0
+  _triggerThreshold: 0.918
 --- !u!114 &2409291356069288739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,7 +339,6 @@ GameObject:
   - component: {fileID: 4231547086085151094}
   - component: {fileID: 8806110701438535478}
   - component: {fileID: 5010153776108503039}
-  - component: {fileID: 2980356825666765716}
   m_Layer: 9
   m_Name: firePoint
   m_TagString: Untagged
@@ -355,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 1376890015921825424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0.82}
+  m_LocalPosition: {x: 0, y: 0.11, z: 1.85}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -411,27 +411,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2980356825666765716
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376890015921825424}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2367018339237499389
 GameObject:
   m_ObjectHideFlags: 0
