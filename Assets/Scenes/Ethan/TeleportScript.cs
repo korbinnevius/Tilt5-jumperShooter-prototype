@@ -6,17 +6,17 @@ using UnityEngine;
 public class TeleportScript : MonoBehaviour
 {
 
-    private Transform targetLocation;
+    public Transform targetLocation;
 
-    public bool isExit;
+    // public bool isExit;
     public float distance = 0.2f;
 
     private void Start()
     {
-        if (isExit == false)
-        {
-            targetLocation = GameObject.FindGameObjectWithTag("ExitPortal").GetComponent<Transform>();
-        }
+        // if (isExit == false)
+        // {
+        //     targetLocation = GameObject.FindGameObjectWithTag("ExitPortal").GetComponent<Transform>();
+        // }
         // else
         // {
         //     targetLocation = GameObject.FindGameObjectWithTag("EntrancePortal").GetComponent<Transform>();
@@ -27,8 +27,9 @@ public class TeleportScript : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, other.transform.position) > distance)
         {
-            other.transform.position = new Vector3(targetLocation.position.x, targetLocation.position.y,
-                targetLocation.position.z);
+            var targetPosition = targetLocation.position;
+            other.transform.position = new Vector3(targetPosition.x, targetPosition.y,
+                targetPosition.z);
         }
     }
 }
