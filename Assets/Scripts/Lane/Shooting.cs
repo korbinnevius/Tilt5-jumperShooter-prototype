@@ -31,6 +31,6 @@ public class Shooting : MonoBehaviour
 
     public void Shoot()
     {
-        Instantiate(Bullet, firePoint.position, firePoint.rotation);
+        Instantiate(Bullet, firePoint.position, Quaternion.identity);
     }
 }

@@ -23,10 +23,15 @@ namespace Character_Controller
 		[Range(0,1)]public float _triggerThreshold;
 		private bool _triggerPressed;
 		private Player _player;
+		private Animator _animator;
+		private static readonly int Jump = Animator.StringToHash("Jump");
+		private static readonly int IsRunning = Animator.StringToHash("IsRunning");
+
 		private void Awake()
 		{
 			_characterController = GetComponent<RBCharacterController>();
 			_interactionHandler = GetComponent<PlayerInteractionHandler>();
+			_animator = GetComponent<Animator>();
 		}
 
 		public void SetPlayer(Player player)
@@ -64,6 +69,7 @@ namespace Character_Controller
 					right = new Vector3(right.x, 0, right.z).normalized;
 
 					tFiveInput = right * tFiveInputv2.x + forward * tFiveInputv2.y;
+					_animator.GetBool(IsRunning);
 				}
 
 				WorldInputDirection = tFiveInput;
@@ -89,6 +95,7 @@ namespace Character_Controller
 				if (TiltFive.Input.GetButtonDown(jumpButton, _controllerIndex, TiltPlayerIndex))
 				{
 					_characterController.Jump();
+					_animator.GetBool(Jump);
 				}
 				
 				//alt
