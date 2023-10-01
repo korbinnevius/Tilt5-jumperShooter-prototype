@@ -13,6 +13,7 @@ namespace Character_Controller
 		private PlayerInteractionHandler _interactionHandler;
 		private ControllerIndex _controllerIndex = ControllerIndex.Right;
 		public PlayerIndex TiltPlayerIndex;
+		private Shooting _shooting;
 		public GameObject ControllerForward { get; set; }//forward in world space.
 		public Vector3 WorldInputDirection { get; set; }
 
@@ -75,6 +76,7 @@ namespace Character_Controller
 					if (!_triggerPressed)
 					{
 						_triggerPressed = true;
+						_shooting.Shoot();
 						_interactionHandler.Interact();
 					}
 				}

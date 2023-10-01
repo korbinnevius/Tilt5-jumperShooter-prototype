@@ -9,6 +9,8 @@ public class Shooting : MonoBehaviour
 
     private float timeLastPressed = -5;
     public float shootFrequency;
+
+    [SerializeField] private Transform firePoint;
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
@@ -27,8 +29,8 @@ public class Shooting : MonoBehaviour
         }
     }
 
-    private void Shoot()
+    public void Shoot()
     {
-        Instantiate(Bullet, transform.position, transform.rotation);
+        Instantiate(Bullet, firePoint.position, firePoint.rotation);
     }
 }
