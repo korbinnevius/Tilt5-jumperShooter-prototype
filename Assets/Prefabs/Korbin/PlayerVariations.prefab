@@ -205,7 +205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 256
   RideHeight: 0.3
   groundCastDistance: 1
   RideSpringForce: 200
