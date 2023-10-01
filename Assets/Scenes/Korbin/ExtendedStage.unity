@@ -20446,7 +20446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 3
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 6
+  gameBoardLerpSpeed: 7
 --- !u!33 &4881664581404686418
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25890,7 +25890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 1
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 6
+  gameBoardLerpSpeed: 7
 --- !u!23 &6470519853539407187
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29210,7 +29210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 2
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 6
+  gameBoardLerpSpeed: 7
 --- !u!1 &7431383185783915396
 GameObject:
   m_ObjectHideFlags: 0
