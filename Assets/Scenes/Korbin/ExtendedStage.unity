@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 3
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 5
+  gameBoardLerpSpeed: 6
 --- !u!1 &5200747907101116284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 1
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 5
+  gameBoardLerpSpeed: 6
 --- !u!4 &6513852108488768818
 Transform:
   m_ObjectHideFlags: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerToFollow: 2
   offset: {x: 0, y: 0, z: 0}
-  gameBoardLerpSpeed: 5
+  gameBoardLerpSpeed: 6
 --- !u!1 &7883691805387088836
 GameObject:
   m_ObjectHideFlags: 0
