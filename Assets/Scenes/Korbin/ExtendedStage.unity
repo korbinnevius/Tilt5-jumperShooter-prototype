@@ -97,9 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 294de1ee7d729104aa00fdf4e7cf2054,
+  m_LightingDataAsset: {fileID: 112000000, guid: c7e361baa23c3ef4e870276da98ad961,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 81ab10dbcd2b64b42818bd54e24f74ea,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 578e058bf83655747ac13c1a8f60815a,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -2523,7 +2523,7 @@ GameObject:
   - component: {fileID: 5340555140566668025}
   - component: {fileID: 7710600469005793733}
   - component: {fileID: 7770769598638492765}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3886,7 +3886,7 @@ GameObject:
   - component: {fileID: 8890564441445519022}
   - component: {fileID: 4277958032160941693}
   - component: {fileID: 8890564441445519023}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.012
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -4786,7 +4786,7 @@ GameObject:
   - component: {fileID: 8275608082473312327}
   - component: {fileID: 3944352417290694729}
   - component: {fileID: 5422994817226749817}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5532,7 +5532,7 @@ GameObject:
   - component: {fileID: 4016557513860808349}
   - component: {fileID: 9133853465657423521}
   - component: {fileID: 5377821954979708879}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5813,7 +5813,7 @@ GameObject:
   - component: {fileID: 7591612307570833685}
   - component: {fileID: 6626506565587751770}
   - component: {fileID: 7591612307570833686}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.011
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -9156,7 +9156,7 @@ GameObject:
   - component: {fileID: 7070492627300669992}
   - component: {fileID: 5305117071671888262}
   - component: {fileID: 7070492627300669993}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.010
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -9191,7 +9191,7 @@ GameObject:
   - component: {fileID: 4315412538898827334}
   - component: {fileID: 886248740230441228}
   - component: {fileID: 8719906006877919154}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.014
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -10560,7 +10560,7 @@ Transform:
   m_GameObject: {fileID: 3728644839314885006}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.63, z: 0}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
   m_LocalScale: {x: 30, y: 0.2, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12564,7 +12564,7 @@ GameObject:
   - component: {fileID: 1760313533570679156}
   - component: {fileID: 5341951777653414556}
   - component: {fileID: 6276848500570071617}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14771,7 +14771,7 @@ GameObject:
   - component: {fileID: 397861191838759514}
   - component: {fileID: 7005016093336053946}
   - component: {fileID: 7444630756280658746}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.013
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -15164,7 +15164,7 @@ GameObject:
   - component: {fileID: 6347456000946482889}
   - component: {fileID: 4969678236768051626}
   - component: {fileID: 1236497304905104950}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17377,7 +17377,7 @@ GameObject:
   - component: {fileID: 1705991333912699384}
   - component: {fileID: 3806273592493015342}
   - component: {fileID: 7223905248286279390}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17855,7 +17855,7 @@ GameObject:
   - component: {fileID: 1267801344469937388}
   - component: {fileID: 782430915124547581}
   - component: {fileID: 2830381567120851905}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20426,7 +20426,7 @@ Transform:
   m_GameObject: {fileID: 2950976414623904184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.42, z: 0}
+  m_LocalPosition: {x: 0, y: -10.1, z: 0}
   m_LocalScale: {x: 30, y: 0.2, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23736,7 +23736,7 @@ GameObject:
   - component: {fileID: 8310191645342342224}
   - component: {fileID: 9033432088379723992}
   - component: {fileID: 453097191793085176}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27274,7 +27274,7 @@ GameObject:
   - component: {fileID: 1581795459381603764}
   - component: {fileID: 7305617764795287114}
   - component: {fileID: 7332347957243420406}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cylinder.009
   m_TagString: EntrancePortal
   m_Icon: {fileID: 0}
@@ -27675,7 +27675,7 @@ GameObject:
   - component: {fileID: 828940856778451530}
   - component: {fileID: 685903624061137578}
   - component: {fileID: 2910600224295451908}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28562,7 +28562,7 @@ GameObject:
   - component: {fileID: 286531761955532633}
   - component: {fileID: 1917171304731559138}
   - component: {fileID: 5640262411185864818}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28783,7 +28783,7 @@ GameObject:
   - component: {fileID: 3307966034661608668}
   - component: {fileID: 825187484251372702}
   - component: {fileID: 1890967729391995221}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29674,7 +29674,7 @@ GameObject:
   - component: {fileID: 5261705414555402569}
   - component: {fileID: 4857827411815063458}
   - component: {fileID: 934661604421141850}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31465,7 +31465,7 @@ GameObject:
   - component: {fileID: 8282076146761272882}
   - component: {fileID: 2943285549740807297}
   - component: {fileID: 7972499563657564263}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34245,7 +34245,7 @@ GameObject:
   - component: {fileID: 4513912455011034956}
   - component: {fileID: 7886663171441634092}
   - component: {fileID: 367090560274477696}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34905,7 +34905,7 @@ GameObject:
   - component: {fileID: 1629078662831159631}
   - component: {fileID: 1518014616460948760}
   - component: {fileID: 1383052453427132043}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ring Collider (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -204,7 +204,9 @@ public class RBCharacterController : MonoBehaviour
         toGoal.ToAngleAxis(out var rotDegrees, out var rotAxis);
         rotAxis.Normalize();
         float rotRadians = rotDegrees * Mathf.Deg2Rad;
+        Debug.Log(rotRadians);
         _rigidbody.AddTorque((rotAxis * (rotRadians * UprightJointSpringStrength)) - (_rigidbody.angularVelocity * UprightJointSpringDamper));
+        
     }
 
     /// <summary>
@@ -213,9 +215,10 @@ public class RBCharacterController : MonoBehaviour
     private void CalculateTargetRotation()
     {
         //todo: tilt towards input movement.
-        if (_unitGoal.sqrMagnitude > 0.01f)
+        //initially .01f
+        if (_unitGoal.sqrMagnitude > 0.1f)
         {
-            _uprightTargetRot = Quaternion.LookRotation(_unitGoal, Vector3.up);
+            _rigidbody.rotation = Quaternion.LookRotation(_unitGoal, Vector3.up);
         }
         else
         {
