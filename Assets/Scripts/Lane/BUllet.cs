@@ -11,14 +11,14 @@ public class BUllet : MonoBehaviour
     public GameObject BB5;
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("wall"))
-        {
+        //if (other.CompareTag("wall"))
+       // {
             Destroy(BB1);
             Destroy(BB2);
             Destroy(BB3);
             Destroy(BB4);
             Destroy(BB5);
-        }
+      //  }
     }
     /*private void Awake()
  {

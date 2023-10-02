@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,7 @@ public class Shooting : MonoBehaviour
     private float timeLastPressed = -5;
     public float shootFrequency;
     public float shotspeed;
-    public float destroyafter;
+  //  public float destroyafter;
 
     void Update()
     {
@@ -36,6 +37,6 @@ public class Shooting : MonoBehaviour
         Rigidbody TheShot = Shot.GetComponent<Rigidbody>();
 
         TheShot.AddForce(gameObject.transform.forward * shotspeed);
-        Destroy(Shot, destroyafter);
+       //Destroy(Shot, destroyafter);
     }
 }
