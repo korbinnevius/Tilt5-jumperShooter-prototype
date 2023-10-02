@@ -5811,7 +5811,7 @@ GameObject:
   - component: {fileID: 409546854}
   - component: {fileID: 409546853}
   - component: {fileID: 409546852}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (1)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -5833,7 +5833,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24070,7 +24070,6 @@ MonoBehaviour:
   Bullet: {fileID: 2400822858382750408, guid: 0dba6d0f10f0f6a45a0313126adabda2, type: 3}
   shootFrequency: 1
   shotspeed: 100
-  destroyafter: 5
 --- !u!65 &1591653521
 BoxCollider:
   m_ObjectHideFlags: 0
