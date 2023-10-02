@@ -34455,7 +34455,7 @@ MonoBehaviour:
     level: 0
     TAG: TFI
   editorSettings:
-    selectedPlayer: 1
+    selectedPlayer: 2
     selectedPlayerSettingsPanel: 3
 --- !u!4 &543450652487250337
 Transform:

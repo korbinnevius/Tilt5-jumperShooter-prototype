@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExitPortal
+  - EntrancePortal
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -11,15 +14,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Border
+  - Floor layer
+  - Projectile
+  - Spire
+  - Teleport
+  - Interaction
+  - PlayerCell
+  - wall
   - 
   - 
   - 

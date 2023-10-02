@@ -13,6 +13,7 @@ namespace Character_Controller
 		private PlayerInteractionHandler _interactionHandler;
 		private ControllerIndex _controllerIndex = ControllerIndex.Right;
 		public PlayerIndex TiltPlayerIndex;
+		public Shooting shooting;
 		public GameObject ControllerForward { get; set; }//forward in world space.
 		public Vector3 WorldInputDirection { get; set; }
 
@@ -22,10 +23,12 @@ namespace Character_Controller
 		[Range(0,1)]public float _triggerThreshold;
 		private bool _triggerPressed;
 		private Player _player;
+
 		private void Awake()
 		{
 			_characterController = GetComponent<RBCharacterController>();
 			_interactionHandler = GetComponent<PlayerInteractionHandler>();
+			
 		}
 
 		public void SetPlayer(Player player)
@@ -63,6 +66,7 @@ namespace Character_Controller
 					right = new Vector3(right.x, 0, right.z).normalized;
 
 					tFiveInput = right * tFiveInputv2.x + forward * tFiveInputv2.y;
+					
 				}
 
 				WorldInputDirection = tFiveInput;
@@ -75,6 +79,7 @@ namespace Character_Controller
 					if (!_triggerPressed)
 					{
 						_triggerPressed = true;
+						shooting.Shoot();
 						_interactionHandler.Interact();
 					}
 				}
@@ -87,6 +92,7 @@ namespace Character_Controller
 				if (TiltFive.Input.GetButtonDown(jumpButton, _controllerIndex, TiltPlayerIndex))
 				{
 					_characterController.Jump();
+					
 				}
 				
 				//alt
