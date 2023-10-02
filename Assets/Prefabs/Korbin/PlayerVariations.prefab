@@ -328,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2400822858382750408, guid: 0dba6d0f10f0f6a45a0313126adabda2, type: 3}
   shootFrequency: 1
-  shotspeed: 0
+  shotspeed: 100
 --- !u!114 &-8493832167581929309
 MonoBehaviour:
   m_ObjectHideFlags: 0
