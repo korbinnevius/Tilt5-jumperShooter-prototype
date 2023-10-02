@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7158890076943084616}
   m_Layer: 6
   m_Name: white
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: -8493832167581929309}
   m_Layer: 6
   m_Name: PlayerVariations
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2400822858382750408, guid: 0dba6d0f10f0f6a45a0313126adabda2, type: 3}
   shootFrequency: 1
-  shotspeed: 100
+  shotspeed: 200
 --- !u!114 &-8493832167581929309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ GameObject:
   - component: {fileID: 359771166194279193}
   m_Layer: 6
   m_Name: gold
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 1407082410982286228}
   m_Layer: 6
   m_Name: red
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 4256160567437676384}
   m_Layer: 6
   m_Name: blue
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

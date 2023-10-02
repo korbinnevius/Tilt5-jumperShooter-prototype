@@ -116,7 +116,6 @@ GameObject:
   - component: {fileID: 1298223333253878852}
   - component: {fileID: -780734646048774509}
   - component: {fileID: -6150488617372354764}
-  - component: {fileID: 2432555698458842463}
   m_Layer: 9
   m_Name: Shot
   m_TagString: Untagged
@@ -190,27 +189,6 @@ MonoBehaviour:
   BB4: {fileID: 8234563650868262207}
   BB5: {fileID: 9001864469347916613}
   safetime: 2.705
---- !u!135 &2432555698458842463
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400822858382750408}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2851970982169255174
 GameObject:
   m_ObjectHideFlags: 0
