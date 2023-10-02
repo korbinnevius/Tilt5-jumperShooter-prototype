@@ -11,6 +11,7 @@ public class Shooting : MonoBehaviour
     public float shootFrequency;
     public float shotspeed;
     public float destroyafter;
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
@@ -32,9 +33,9 @@ public class Shooting : MonoBehaviour
     public void Shoot()
     {
         GameObject Shot = Instantiate(Bullet, transform.position, Quaternion.identity);
-                    Rigidbody instFoamRB = Shot.GetComponent<Rigidbody>();
-        
-                    instFoamRB.AddForce(gameObject.transform.forward * shotspeed);
-                    Destroy(Shot, destroyafter);
+        Rigidbody TheShot = Shot.GetComponent<Rigidbody>();
+
+        TheShot.AddForce(gameObject.transform.forward * shotspeed);
+        Destroy(Shot, destroyafter);
     }
 }
