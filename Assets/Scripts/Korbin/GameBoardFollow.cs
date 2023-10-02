@@ -5,20 +5,27 @@ using UnityEngine;
 
 public class GameBoardFollow : MonoBehaviour
 {
+    /// <summary>
+    /// What player should the gameboard follow
+    /// </summary>
     public PlayerIndex playerToFollow;
     public Vector3 offset;
 
     private Vector2 goalPos;
-
+    
+    /// <summary>
+    /// How fast should the camera view should change
+    /// </summary>
     public float gameBoardLerpSpeed;
-    // Update is called once per frame
+    
     void Update()
     {
         if (TryGetLevel(out var level))
         {
             goalPos = level.transform.position + offset;
         }
-
+        
+        //move towards the level marker you have moved to. if you have moved. 
         transform.position = Vector3.MoveTowards(transform.position, goalPos, Time.deltaTime*gameBoardLerpSpeed);
     }
 
