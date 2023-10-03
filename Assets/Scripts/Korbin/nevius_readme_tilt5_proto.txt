@@ -1,29 +1,31 @@
 Hunters Code Use:
 ---
 CharacterControllerInput
-
+Used this code for player movement. Edited the script to trigger things such as jumping. 
+Editing settings to help prevent player from clipping through the 
+ground. Tried to get the script to trigger animation on walk and jump but the animations
+themselves weren't working. 
 ---
 RBCharacterController
-
+Edited the script to somewhat change the rotation for the player for this experience.
+Edited the speed and other character related movement decisions. 
 ---
 Player
-
+Sets player index, watches player location to change gameboard location for specific players. 
+Allows me to cycle through different materials for each character based on index.  
 ---
 PlayerConnectionHandler
-
+Used this to connect up to three players, can do four but the frame rate drops drastically for four.
 ---
 InteractionHandler
-
+Was there to fill a null reference error. Doesn't affect anything in the game. 
 ---
 
-
-
-
-
-
-
-
-
+---
+GameBoardFollow
+Logic behind gameboard movement. Gets the level of the player in relation to the level markers in the scene
+and lerps the gameboard to the set target location. 
+---
 
 
 
@@ -47,46 +49,6 @@ stock.adobe.com/search?k=cracked%2Bmarble. Accessed 2 Oct. 2023.
 Prod., Gabriel Aguiar. “Unity Shader Graph - Clouds Tutorial.” YouTube, YouTube, 27 July 2021, 
 www.youtube.com/watch?v=xxhvUyvIH6s+-+cloud+shader+graph+tutorial. 
 ---
-
----
-Sound
----
-metaphonk
-Metaphonk by Alex-Productions | https://onsound.eu/
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
-https://creativecommons.org/licenses/by/3.0/deed.en_US
----
-chase mp3
-https://www.free-stock-music.com/chase.html 
----
-speed
-Speed by Alex-Productions | https://onsound.eu/
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
-https://creativecommons.org/licenses/by/3.0/deed.en_US
----
-like that
-Like That by Alex-Productions | https://onsound.eu/
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
-https://creativecommons.org/licenses/by/3.0/deed.en_US
----
-Dragon Slayer
-Dragon Slayer by Makai Symphony | http://makai-symphony.com
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
----
-The hunting
-The Hunting by FSCM Productions | https://fscmproductions.bandcamp.com
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution 4.0 International (CC BY 4.0)
-https://creativecommons.org/licenses/by/4.0/
----
-Escape
-Escape Velocity by Scott Buckley | https://soundcloud.com/scottbuckley
-Music promoted by https://www.free-stock-music.com
-Creative Commons / Attribution 4.0 International (CC BY 4.0)
-https://creativecommons.org/licenses/by/4.0/
+Gillespie, Brandon. “Greeble Materials: 2d Textures &amp; Materials.” Unity Asset Store, 
+assetstore.unity.com/packages/2d/textures-materials/greeble-materials-178715. Accessed 2 Oct. 2023. 
 ---

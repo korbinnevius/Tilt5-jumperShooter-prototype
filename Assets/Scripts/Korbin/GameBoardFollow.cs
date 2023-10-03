@@ -18,6 +18,7 @@ public class GameBoardFollow : MonoBehaviour
     /// </summary>
     public float gameBoardLerpSpeed;
     
+    //check position of player and lerp gameboard if necessary
     void Update()
     {
         if (TryGetLevel(out var level))
@@ -30,6 +31,7 @@ public class GameBoardFollow : MonoBehaviour
     }
 
     //Hunter says Hi
+    //follow player
     bool TryGetLevel(out Transform level)
     {
         if (PlayerLevel.Levels.ContainsKey(playerToFollow))

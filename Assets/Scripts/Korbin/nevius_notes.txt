@@ -1,0 +1,19 @@
+Notes for the player prefab
+---
+Use the player controller for input on the character while the RBcharactercontroller controls physics behind the character.
+The player prefab itself needs to include the player, playerinteractionhandeler, charactercontrollerinput, rbcharactercontroller,
+script.
+    In the playerinteracionhandler you need to have separate colliders with an interactor and grabbable script. 
+    If player level script is on the player then you need to have the level markers on the stage.
+    You don't need to fill up the character material options in the player script. 
+    For future, mess with the rotation function inside the rbcharactercontroller.
+    For future animation controls, reference the charactercontrollerinput script for the button events. 
+    
+Additional scripts that are required for the player that were added later on through prototypign is the shooting, player level, and 
+getting shot script. 
+Collider on the parent object of the character while the alternate materials don't need any collider. 
+Rigidbody on the parent.
+    Meaning all the scripts are on the parent as well.
+In order to have the player move, you need to make sure the ground layer on rbcharactercontroller is set to the desired layer of your ground.
+Make tags/layers for the player "player"
+
